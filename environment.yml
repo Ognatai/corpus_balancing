@@ -1,0 +1,23 @@
+name: taz
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy=1.26
+  - scipy
+  - pandas
+  - seaborn
+  - matplotlib
+  - scikit-learn
+  - spacy
+  - pip
+  - pip:
+      - transformers
+      - coreferee
+      - torch
+
+# After creating the environment, run:
+#   conda activate taz
+#   python -m spacy download de_core_news_lg
+#   python -m coreferee install de
