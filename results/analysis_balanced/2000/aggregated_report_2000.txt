@@ -1,0 +1,115 @@
+
+Report for the year 2000
+===========================================================================
+
+AGGREGATED TOTALS (all texts)
+Total Texts:                        13347
+Texts with Actors:                  13347
+Uses Gender Neutral Language (Docs):   63
+Generic Masculine Usage (Docs):     11826
+
+Metric                                  she/her      he/him     overall
+---------------------------------------------------------------------------
+Pronoun Distribution:                      6376       12493       18869
+Mentions by Pronoun:                      29722       69849       99571
+Named Mentions:                           18079       43008       61087
+Pronoun Mentions:                         11643       26841       38484
+Subject Roles:                            14520       36868       51388
+Object Roles:                               917        1804        2721
+Direct Quotes:                             5680       13394       19074
+Indirect Quotes:                           1514        3660        5174
+Feminine-coded Words:                      3027        6259        9286
+Masculine-coded Words:                     2236        5712        7948
+Sentiment:                                -0.01       -0.02       -0.02
+Named Mentions (% of all mentions):        18.2        43.2            
+Pronoun Mentions (% of all mentions):        11.7        27.0            
+Subject Roles (% of known roles):          26.8        68.1            
+Object Roles (% of known roles):            1.7         3.3            
+Direct Quotes (% of quotes):               23.4        55.2            
+Indirect Quotes (% of quotes):              6.2        15.1            
+
+STATISTICS (per text)
+---------------------------------------------------------------------------
+Metric                                             Mean    Median   Std Dev
+---------------------------------------------------------------------------
+Pronouns (Resolved) (She/Her)                      0.48      0.00      0.71
+Mentions (By Pronoun) (She/Her)                    2.23      0.00      5.09
+Feminine Coded Words (By Pronoun) (She/Her)        0.23      0.00      0.78
+Masculine Coded Words (By Pronoun) (She/Her)       0.17      0.00      0.57
+Named Mentions (Sum Over Actors) (She/Her)         1.35      0.00      3.82
+Pronoun Mentions (Sum Over Actors) (She/Her)       0.87      0.00      1.84
+Subject Roles (She/Her)                            1.09      0.00      2.50
+Object Roles (She/Her)                             0.07      0.00      0.30
+Direct Quotes (She/Her)                            0.43      0.00      1.11
+Indirect Quotes (She/Her)                          0.11      0.00      0.42
+Pronouns (Resolved) (He/Him)                       0.94      1.00      0.81
+Mentions (By Pronoun) (He/Him)                     5.23      3.00      8.38
+Feminine Coded Words (By Pronoun) (He/Him)         0.47      0.00      1.06
+Masculine Coded Words (By Pronoun) (He/Him)        0.43      0.00      1.03
+Named Mentions (Sum Over Actors) (He/Him)          3.22      1.00      6.35
+Pronoun Mentions (Sum Over Actors) (He/Him)        2.01      1.00      2.90
+Subject Roles (He/Him)                             2.76      2.00      4.16
+Object Roles (He/Him)                              0.14      0.00      0.46
+Direct Quotes (He/Him)                             1.00      0.00      1.78
+Indirect Quotes (He/Him)                           0.27      0.00      0.71
+Mean Sentiment (All)                              -0.03      0.00      0.11
+Total Actors                                       1.41      1.00      0.93
+Total Mentions                                     7.46      4.00      9.68
+Total Feminine Coded Words                         0.70      0.00      1.32
+Total Masculine Coded Words                        0.60      0.00      1.17
+Uses Gender-Neutral Language                       0.00      0.00      0.07
+Generic Masculine                                  0.89      1.00      0.32
+
+TOP PMI ADJECTIVES
+-----------------------------------------------------------------------------------------------
+Most frequent adjectives associated with each pronoun group.
+
+Rank ALL                           she/her                       he/him                        
+-----------------------------------------------------------------------------------------------
+1    letzten (506.00)              letzten (155.00)              letzten (355.00)              
+2    deutschen (397.00)            alten (126.00)                deutschen (293.00)            
+3    alten (354.00)                junge (111.00)                alten (239.00)                
+4    berliner (335.00)             deutschen (108.00)            berliner (237.00)             
+5    nächsten (249.00)             berliner (99.00)              nächsten (179.00)             
+6    politischen (246.00)          nächsten (74.00)              politischen (179.00)          
+7    deutsche (219.00)             jungen (69.00)                deutsche (156.00)             
+8    junge (215.00)                politischen (69.00)           ehemaligen (147.00)           
+9    ehemaligen (205.00)           deutsche (65.00)              letzte (137.00)               
+10   politische (188.00)           politische (63.00)            politische (128.00)           
+
+
+TOP PMI NOUNS
+-----------------------------------------------------------------------------------------------
+Most frequent nouns associated with each pronoun group.
+
+Rank ALL                           she/her                       he/him                        
+-----------------------------------------------------------------------------------------------
+1    frau (472.00)                 frau (288.00)                 mann (282.00)                 
+2    mann (401.00)                 frauen (160.00)               präsident (245.00)            
+3    leben (370.00)                leben (159.00)                mark (235.00)                 
+4    mark (322.00)                 menschen (136.00)             frau (221.00)                 
+5    partei (300.00)               mann (134.00)                 leben (219.00)                
+6    menschen (290.00)             mutter (132.00)               partei (206.00)               
+7    film (290.00)                 film (116.00)                 mal (181.00)                  
+8    präsident (278.00)            welt (110.00)                 frage (178.00)                
+9    welt (275.00)                 partei (103.00)               geschichte (178.00)           
+10   geschichte (266.00)           mark (103.00)                 sohn (176.00)                 
+
+
+TOP PMI VERBS
+-----------------------------------------------------------------------------------------------
+Most frequent verbs associated with each pronoun group.
+
+Rank ALL                           she/her                       he/him                        
+-----------------------------------------------------------------------------------------------
+1    weiß (529.00)                 weiß (185.00)                 weiß (373.00)                 
+2    lassen (503.00)               lassen (179.00)               lassen (347.00)               
+3    sieht (441.00)                erzählt (147.00)              steht (309.00)                
+4    steht (439.00)                steht (146.00)                sieht (308.00)                
+5    erklärt (399.00)              sieht (141.00)                erklärt (275.00)              
+6    hält (381.00)                 erklärt (137.00)              erklärte (267.00)             
+7    erzählt (380.00)              findet (127.00)               hält (264.00)                 
+8    meint (365.00)                hält (122.00)                 meint (259.00)                
+9    erklärte (347.00)             meint (116.00)                erzählt (254.00)              
+10   lässt (333.00)                lebt (115.00)                 ließ (247.00)                 
+

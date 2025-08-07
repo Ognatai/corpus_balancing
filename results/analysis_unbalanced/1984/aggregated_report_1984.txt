@@ -1,0 +1,115 @@
+
+Report for the year 1984
+===========================================================================
+
+AGGREGATED TOTALS (all texts)
+Total Texts:                            1
+Texts with Actors:                      1
+Uses Gender Neutral Language (Docs):    0
+Generic Masculine Usage (Docs):         1
+
+Metric                                  she/her      he/him     overall
+---------------------------------------------------------------------------
+Pronoun Distribution:                         0           1           1
+Mentions by Pronoun:                          0           9           9
+Named Mentions:                               0           6           6
+Pronoun Mentions:                             0           3           3
+Subject Roles:                                0           6           6
+Object Roles:                                 0           1           1
+Direct Quotes:                                0           4           4
+Indirect Quotes:                              0           1           1
+Feminine-coded Words:                         0           3           3
+Masculine-coded Words:                        0           0           0
+Sentiment:                                 0.00        0.00        0.00
+Named Mentions (% of all mentions):         0.0        66.7            
+Pronoun Mentions (% of all mentions):         0.0        33.3            
+Subject Roles (% of known roles):           0.0        85.7            
+Object Roles (% of known roles):            0.0        14.3            
+Direct Quotes (% of quotes):                0.0        80.0            
+Indirect Quotes (% of quotes):              0.0        20.0            
+
+STATISTICS (per text)
+---------------------------------------------------------------------------
+Metric                                             Mean    Median   Std Dev
+---------------------------------------------------------------------------
+Pronouns (Resolved) (She/Her)                      0.00      0.00         –
+Mentions (By Pronoun) (She/Her)                    0.00      0.00         –
+Feminine Coded Words (By Pronoun) (She/Her)        0.00      0.00         –
+Masculine Coded Words (By Pronoun) (She/Her)       0.00      0.00         –
+Named Mentions (Sum Over Actors) (She/Her)         0.00      0.00         –
+Pronoun Mentions (Sum Over Actors) (She/Her)       0.00      0.00         –
+Subject Roles (She/Her)                            0.00      0.00         –
+Object Roles (She/Her)                             0.00      0.00         –
+Direct Quotes (She/Her)                            0.00      0.00         –
+Indirect Quotes (She/Her)                          0.00      0.00         –
+Pronouns (Resolved) (He/Him)                       1.00      1.00         –
+Mentions (By Pronoun) (He/Him)                     9.00      9.00         –
+Feminine Coded Words (By Pronoun) (He/Him)         3.00      3.00         –
+Masculine Coded Words (By Pronoun) (He/Him)        0.00      0.00         –
+Named Mentions (Sum Over Actors) (He/Him)          6.00      6.00         –
+Pronoun Mentions (Sum Over Actors) (He/Him)        3.00      3.00         –
+Subject Roles (He/Him)                             6.00      6.00         –
+Object Roles (He/Him)                              1.00      1.00         –
+Direct Quotes (He/Him)                             4.00      4.00         –
+Indirect Quotes (He/Him)                           1.00      1.00         –
+Mean Sentiment (All)                               0.00      0.00         –
+Total Actors                                       1.00      1.00         –
+Total Mentions                                     9.00      9.00         –
+Total Feminine Coded Words                         3.00      3.00         –
+Total Masculine Coded Words                        0.00      0.00         –
+Uses Gender-Neutral Language                       0.00      0.00         –
+Generic Masculine                                  1.00      1.00         –
+
+TOP PMI ADJECTIVES
+-----------------------------------------------------------------------------------------------
+Most frequent adjectives associated with each pronoun group.
+
+Rank ALL                           she/her                       he/him                        
+-----------------------------------------------------------------------------------------------
+1    warschauer (1.00)                                           warschauer (1.00)             
+2    komprimierten (1.00)                                        komprimierten (1.00)          
+3    mehrfacher (1.00)                                           mehrfacher (1.00)             
+4    hiesigen (1.00)                                             hiesigen (1.00)               
+5    intellektuellen (1.00)                                      intellektuellen (1.00)        
+6    genaue (1.00)                                               genaue (1.00)                 
+7    artikulierende (1.00)                                       artikulierende (1.00)         
+8    polnischen (1.00)                                           polnischen (1.00)             
+9    westlichen (1.00)                                           westlichen (1.00)             
+10   sozialen (1.00)                                             sozialen (1.00)               
+
+
+TOP PMI NOUNS
+-----------------------------------------------------------------------------------------------
+Most frequent nouns associated with each pronoun group.
+
+Rank ALL                           she/her                       he/him                        
+-----------------------------------------------------------------------------------------------
+1    tagebuch (1.00)                                             tagebuch (1.00)               
+2    form (1.00)                                                 form (1.00)                   
+3    hinsicht (1.00)                                             hinsicht (1.00)               
+4    interesse (1.00)                                            interesse (1.00)              
+5    linken (1.00)                                               linken (1.00)                 
+6    quelle (1.00)                                               quelle (1.00)                 
+7    geschichte (1.00)                                           geschichte (1.00)             
+8    engagements (1.00)                                          engagements (1.00)            
+9    erneuerung (1.00)                                           erneuerung (1.00)             
+10   gründung (1.00)                                             gründung (1.00)               
+
+
+TOP PMI VERBS
+-----------------------------------------------------------------------------------------------
+Most frequent verbs associated with each pronoun group.
+
+Rank ALL                           she/her                       he/him                        
+-----------------------------------------------------------------------------------------------
+1    erschienen (1.00)                                           erschienen (1.00)             
+2    verdient (1.00)                                             verdient (1.00)               
+3    verbunden (1.00)                                            verbunden (1.00)              
+4    verneint (1.00)                                             verneint (1.00)               
+5    appelliert (1.00)                                           appelliert (1.00)             
+6    verstärkt (1.00)                                            verstärkt (1.00)              
+7    suchte (1.00)                                               suchte (1.00)                 
+8    retten (1.00)                                               retten (1.00)                 
+9    bleibt (1.00)                                               bleibt (1.00)                 
+10   lernt (1.00)                                                lernt (1.00)                  
+
