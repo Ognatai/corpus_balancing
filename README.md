@@ -126,22 +126,22 @@ All metrics are reported separately for **she/her**, **he/him**, and **overall**
 - **How to interpret**: A higher rate for women may imply marginalisation or backgrounding.  
 
 ### Subject Roles (% of known roles)  
-- **What**: Share of all subject roles attributed to each gender.  
+- **What**: Share of all semantic roles that are subject roles per gender.  
 - **Why**: Normalises subject counts.  
 - **How to interpret**: A lower percentage of subject role share for women indicates reduced narrative agency.  
 
 ### Object Roles (% of known roles)  
-- **What**: Share of all object roles attributed to each gender.  
+- **What**: Share of all semantic roles that are object roles per gender.  
 - **Why**: Normalises object counts.  
 - **How to interpret**: A lower percentage of object roles for women signals structural passivation.  
 
 ### Direct Quotes (% of quotes)  
-- **What**: Share of all direct quotes attributed to each gender.  
+- **What**: Share of all quotes that are direct quotes per gender.  
 - **Why**: Assesses gender balance in attributed voice.  
 - **How to interpret**: A lower percentage of direct quotes for women reflects discursive underrepresentation.  
 
 ### Indirect Quotes (% of quotes)  
-- **What**: Share of indirect quotes attributed to each gender.  
+- **What**: Share of quotes that are indirect quotes per gender.  
 - **Why**: Reflects passive or backgrounded representation.  
 - **How to interpret**: A higher share for women may indicate narrative marginalisation.  
 
