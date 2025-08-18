@@ -33,112 +33,87 @@ These metadata-level indicators appear at the top of each yearly report and prov
 
 ---
 
-### Total Texts
-- **What**: The number of articles included in the yearly dataset.
-- **Why**: Provides context for interpreting all other metrics. Larger numbers improve stability and reduce outlier effects.
-- **How to interpret**: Use this to assess representativeness, smaller years (e.g. in the 1980s) may show higher volatility in gender ratios and framing.
+### Total Texts  
+- **What**: Total number of articles in the corpus for a given year.  
+- **Why**: Indicates corpus size, which impacts interpretability and statistical stability.  
+- **How to interpret**: Smaller values (e.g., early 1980s) lead to noisier metrics. Use this to contextualise all further metrics.  
+
+### Texts with Actors  
+- **What**: Number of texts that contain at least one actor with resolved gender.  
+- **Why**: Only these texts are analysed; others are excluded.  
+- **How to interpret**: A high share indicates full coverage; a low share indicates limited gender-resolvable material.  
+
+### Uses Gender Neutral Language (Docs)  
+- **What**: Number of texts using inclusive forms such as `Lehrer:innen` or `Schüler*innen`.  
+- **Why**: Captures editorial shifts toward gender-fair language.  
+- **How to interpret**: Higher values indicate more inclusive language usage.  
+
+### Generic Masculine Usage (Docs)  
+- **What**: Number of texts that use the generic masculine form (e.g., `die Studenten`).  
+- **Why**: The generic masculine is a structural source of gender exclusion in German.  
+- **How to interpret**: High values reflect dominant use of non-inclusive grammatical norms.  
 
 ---
 
-### Texts with Actors
-- **What**: Number of texts where at least one actor was identified and gender-resolved.
-- **Why**: Only these texts are analysed in detail; others are excluded due to a lack of gender cues (e.g. no pronouns).
-- **How to interpret**: A high percentage (e.g. 100%) indicates that most articles were eligible for discrimination analysis. A lower number means results reflect a subset of the corpus.
-
----
-
-### Uses Gender Neutral Language (Docs)
-- **What**: Number of articles using inclusive gender-neutral forms (e.g. *Lehrer:innen* or *Schüler*innen*).
-- **Why**: Tracks efforts toward inclusive language practices in journalism.
-- **How to interpret**: Typically low in earlier years, this number may rise over time. A higher value signals editorial awareness or policy shifts.
-
----
-
-### Generic Masculine Usage (Docs)
-- **What**: Number of articles using the generic masculine form (e.g. *die Studenten* without gender-neutral markers).
-- **Why**: The generic masculine is a known exclusionary linguistic norm in German. Tracking its use reveals structural bias in grammar.
-- **How to interpret**: A high number (e.g. 8,000 of 10,000 texts) suggests that gender-exclusive forms dominate. A drop after filtering may indicate corpus-level improvement.
-
----
-### Text based Metrics
+### Representation and Framing Metrics  
 All metrics are reported separately for **she/her**, **he/him**, and **overall**. Most are presented as **totals** (across all texts) and as **per-text means**, **medians**, and **standard deviations**.
 
 ---
 
-### Pronoun Distribution
-- **What**: Number of resolved pronouns for each gender (e.g. “sie”, “er”) across the corpus.
-- **Why**: Pronoun frequency serves as a coarse proxy for actor salience and gender presence in discourse.
-- **How to interpret**: A large gap (e.g. 6900 she/her vs. 9200 he/him) shows unequal discursive presence. High standard deviation in per-text stats may indicate gendered clustering in specific texts.
+### Pronoun Distribution  
+- **What**: Number of actors in the texts.  
+- **Why**: Indicates basic discursive presence.  
+- **How to interpret**: Large gender gaps (e.g., 6900 vs. 9200) reflect asymmetric visibility.  
 
----
+### Mentions by Pronoun  
+- **What**: How often actors are mentioned.  
+- **Why**: Tracks referential continuity and narrative presence.  
+- **How to interpret**: Higher values for one group suggest greater prominence across texts.  
 
-### Mentions by Pronoun
-- **What**: Total number of mentions where actors are referred to via pronouns.
-- **Why**: Tracks how frequently actors are referenced indirectly — an important aspect of narrative continuity and visibility.
-- **How to interpret**: Disparities (e.g. 35,595 vs. 56,044) suggest dominant gender presence. A higher per-text average for he/him indicates systemic narrative favouring of male-coded actors.
+### Named Mentions  
+- **What**: Number of mentions using full names.  
+- **Why**: Named references imply individuation and recognisability.  
+- **How to interpret**: Gender gaps reflect asymmetric specificity (e.g., if women are more often mentioned by their pronoun).  
 
----
+### Pronoun Mentions  
+- **What**: Number of mentions using pronouns only.  
+- **Why**: Complements named mentions; excessive pronoun use reduces discursive clarity.  
+- **How to interpret**: Disproportionate pronoun use for women implies backgrounding.  
 
-### Named Mentions
-- **What**: Total number of times an actor is referred to by name (e.g. "Angela Merkel").
-- **Why**: Named references convey individuation, specificity, and public recognisability.
-- **How to interpret**: If men are named more frequently (e.g. 61% of named mentions), it reflects a gender gap in discursive prominence. Per-text statistics highlight whether this is consistent or isolated.
+### Subject Roles  
+- **What**: Number of times actors appear as grammatical subjects.  
+- **Why**: Subject roles signal agency and action.  
+- **How to interpret**: A lower share of women as subjects indicates reduced narrative control.  
 
----
+### Object Roles  
+- **What**: Number of times actors appear as grammatical objects.  
+- **Why**: Object roles indicate being acted upon.  
+- **How to interpret**: A high proportion of women in object roles suggests passivation.  
 
-### Pronoun Mentions
-- **What**: Total number of actor mentions using pronouns.
-- **Why**: Complements named mentions; high pronoun use can reduce individuation.
-- **How to interpret**: If women are mostly referred to with pronouns while men are named, this indicates representational asymmetry.
+### Direct Quotes  
+- **What**: Number of attributed direct quotes.  
+- **Why**: Direct speech signifies authority and voice.  
+- **How to interpret**: If men are quoted directly more often, this reflects narrative centrality and credibility gaps.  
 
----
+### Indirect Quotes  
+- **What**: Number of attributed indirect quotes.  
+- **Why**: Indirect speech downplays speaker agency.  
+- **How to interpret**: High indirect attribution for women implies reduced narrative presence.  
 
-### Subject Roles
-- **What**: Number of times an actor appears in subject position (grammatical agent).
-- **Why**: Following discourse analysis, subjects convey agency and action.
-- **How to interpret**: A subject-role gap (e.g. 38% women vs. 62% men) suggests unequal narrative agency. Per-text values help diagnose whether this imbalance is systematic or document-specific.
+### Feminine-coded Words  
+- **What**: Frequency of feminine-coded descriptors.  
+- **Why**: Lexical bias often reflects gendered expectations.  
+- **How to interpret**: High values for women may signal stereotypical framing (e.g., nurturing, supportive).  
 
----
+### Masculine-coded Words  
+- **What**: Frequency of masculine-coded descriptors.  
+- **Why**: Complements the feminine-coded metric.  
+- **How to interpret**: Skewed usage toward men reinforces traditional gender roles (e.g., assertive, independent).  
 
-### Object Roles
-- **What**: Number of times an actor appears in object position (grammatical patient).
-- **Why**: Object roles signal passivity or being acted upon — central to assessing narrative subordination.
-- **How to interpret**: If women appear as objects disproportionately often, this points to structural discursive disempowerment.
-
----
-
-### Direct Quotes
-- **What**: Total number of direct quotations attributed to each gender.
-- **Why**: Direct speech indicates agency, voice, and visibility.
-- **How to interpret**: A higher percentage of direct quotes for men suggests a gender gap in attributed authority and public voice. A shift after balancing (e.g. from 38/62 to 45/55) reflects improvement.
-
----
-
-### Indirect Quotes
-- **What**: Total number of indirect quotes attributed to each gender.
-- **Why**: Indirect speech diminishes presence and may obscure attribution.
-- **How to interpret**: High use for women (e.g. 62.5% for men, only 37.5% for women) indicates reduced narrative presence.
-
----
-
-### Feminine-coded Words
-- **What**: Count of stereotypically feminine-coded words in predications about actors (based on Gaucher et al. 2011).
-- **Why**: Reveals subtle lexical framing that may reinforce gender roles.
-- **How to interpret**: More feminine-coded words used to describe women can signal stereotypical portrayal. Per-text stats show whether this bias is common or concentrated.
-
----
-
-### Masculine-coded Words
-- **What**: Count of stereotypically masculine-coded words in predications about actors.
-- **Why**: Complements the feminine-coded word count; helps assess lexical asymmetries.
-- **How to interpret**: A high masculine-coded word count for male actors may reinforce traditional gender roles (e.g. leadership, assertiveness).
-
----
-
-### Sentiment
-- **What**: Average sentiment score for sentences associated with each actor group.
-- **Why**: Evaluative framing is often subtle but important for discrimination.
-- **How to interpret**: Scores range from -1 (very negative) to 1 (very positive). Even small differences matter — e.g. -0.01 for women vs. 0.01 for men suggests consistent affective bias.
+### Sentiment  
+- **What**: Mean sentiment score for all predications involving actors.  
+- **Why**: Evaluative framing is a key dimension of linguistic discrimination.  
+- **How to interpret**: Even slight differences (e.g., -0.01 vs. 0.01) are meaningful in neutral-skewed distributions. Negative gaps for women suggest systemic framing bias.  
 
 ---
 
@@ -170,32 +145,42 @@ All metrics are reported separately for **she/her**, **he/him**, and **overall**
 
 ---
 
-### Direct Quotes (% of quotes)
-- **What**: Percentage of all direct quotes attributed to each gender.
-- **Why**: Measures voice and attributed authority.
-- **How to interpret**: A shift from 38% (she/her) vs. 62% (he/him) to a more even split suggests that filtering improved representational equity.
+### Named Mentions (% of all mentions)  
+- **What**: Share of mentions that are named references per gender.  
+- **Why**: Named mentions signal individuation and specificity.  
+- **How to interpret**: A lower share for women indicates reduced discursive prominence.  
+
+### Pronoun Mentions (% of all mentions)  
+- **What**: Share of mentions that are pronouns per gender.  
+- **Why**: High pronoun usage may obscure identity and agency.  
+- **How to interpret**: A higher rate for women may imply marginalisation or backgrounding.  
+
+### Subject Roles (% of known roles)  
+- **What**: Share of all subject roles attributed to each gender.  
+- **Why**: Normalises subject counts.  
+- **How to interpret**: A lower percentage of subject role share for women indicates reduced narrative agency.  
+
+### Object Roles (% of known roles)  
+- **What**: Share of all object roles attributed to each gender.  
+- **Why**: Normalises object counts.  
+- **How to interpret**: A lower percentage of object roles for women signals structural passivation.  
+
+### Direct Quotes (% of quotes)  
+- **What**: Share of all direct quotes attributed to each gender.  
+- **Why**: Assesses gender balance in attributed voice.  
+- **How to interpret**: A lower percentage of direct quotes for women reflects discursive underrepresentation.  
+
+### Indirect Quotes (% of quotes)  
+- **What**: Share of indirect quotes attributed to each gender.  
+- **Why**: Reflects passive or backgrounded representation.  
+- **How to interpret**: A higher share for women may indicate narrative marginalisation.  
 
 ---
 
-### Indirect Quotes (% of quotes)
-- **What**: Percentage of all indirect quotes attributed to each gender.
-- **Why**: Reflects narrative presence.
-- **How to interpret**: Persistent imbalance may signal stylistic biases or role expectations in reporting.
-
----
-
-### PMI Terms
-
-The reports also include lists of **Top PMI Adjectives**, **Nouns**, and **Verbs** for each gender group.
-
-- **What**: Pointwise Mutual Information identifies the most distinctive terms associated with she/her and he/him actors.
-- **Why**: Co-occurrence patterns reveal lexical stereotypes and thematic framing (e.g. women with “mother”, men with “president”).
-- **How to interpret**:
-  - Use the PMI rankings to identify repeated associations (e.g. women with “junge”, men with “politisch”).
-  - Compare rankings across years to detect shifts in discourse over time.
-  - The presence of strongly gendered roles (e.g. *Mutter* vs. *Präsident*) may signal deep-rooted framing asymmetries.
-
----
+### Top PMI Adjectives, Nouns, Verbs  
+- **What**: Lists of words with highest Pointwise Mutual Information (PMI) per gender group.  
+- **Why**: Reveals thematic associations and stereotypical framing.  
+- **How to interpret**: Recurrent associations reveal patterns of how actors are described. Differences between genders indicate bias in framing and topical contexts.  
 
 These metrics are central to both diagnosing gendered patterns and deciding which texts to exclude during corpus filtering. Their interpretability is supported through clear per-gender breakdowns and intuitive statistical summaries (mean, median, std. dev) in the yearly reports.
 
